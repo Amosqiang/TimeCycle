@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B206B9532CF855F50012E65A /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B206B9522CF855F50012E65A /* AudioManager.swift */; };
+		B206B9552CF859800012E65A /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B206B9542CF859800012E65A /* TimerManager.swift */; };
+		B206B9612CF9A0010012E65A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B206B9602CF9A0010012E65A /* AppDelegate.swift */; };
 		CFACD5202C736A86005FF0BF /* TimeCycleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFACD51F2C736A86005FF0BF /* TimeCycleApp.swift */; };
 		CFACD5222C736A86005FF0BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFACD5212C736A86005FF0BF /* ContentView.swift */; };
 		CFACD5242C736A88005FF0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFACD5232C736A88005FF0BF /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B206B9522CF855F50012E65A /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		B206B9542CF859800012E65A /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		B206B9602CF9A0010012E65A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFACD51C2C736A86005FF0BF /* TimeCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFACD51F2C736A86005FF0BF /* TimeCycleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCycleApp.swift; sourceTree = "<group>"; };
 		CFACD5212C736A86005FF0BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +58,9 @@
 		CFACD51E2C736A86005FF0BF /* TimeCycle */ = {
 			isa = PBXGroup;
 			children = (
+				B206B9602CF9A0010012E65A /* AppDelegate.swift */,
+				B206B9542CF859800012E65A /* TimerManager.swift */,
+				B206B9522CF855F50012E65A /* AudioManager.swift */,
 				CFACD52D2C736AD0005FF0BF /* Info.plist */,
 				CFACD51F2C736A86005FF0BF /* TimeCycleApp.swift */,
 				CFACD5212C736A86005FF0BF /* ContentView.swift */,
@@ -97,7 +106,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					CFACD51B2C736A86005FF0BF = {
 						CreatedOnToolsVersion = 15.4;
@@ -139,6 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B206B9612CF9A0010012E65A /* AppDelegate.swift in Sources */,
+				B206B9532CF855F50012E65A /* AudioManager.swift in Sources */,
+				B206B9552CF859800012E65A /* TimerManager.swift in Sources */,
 				CFACD5222C736A86005FF0BF /* ContentView.swift in Sources */,
 				CFACD5202C736A86005FF0BF /* TimeCycleApp.swift in Sources */,
 			);
@@ -182,6 +194,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6MHXTRXY5L;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -205,6 +218,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -245,6 +259,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6MHXTRXY5L;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -261,6 +276,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -274,7 +290,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TimeCycle/Preview Content\"";
-				DEVELOPMENT_TEAM = Z37533F5SY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TimeCycle/Info.plist;
@@ -304,7 +319,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TimeCycle/Preview Content\"";
-				DEVELOPMENT_TEAM = Z37533F5SY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TimeCycle/Info.plist;

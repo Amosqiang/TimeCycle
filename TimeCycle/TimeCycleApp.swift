@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct TimeCycleApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
+    @StateObject private var timerManager = TimerManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(timerManager: timerManager)
         }
     }
 }
